@@ -1,0 +1,17 @@
+name: 'Publish BigCommerce Stencil'
+description: 'Uses the Stencil CLI to Publish your Stencil Themes.'
+inputs:
+  token:  # id of input
+    description: 'BigCommerce API Token'
+    required: true
+    default: ''
+  store_url:
+    description: "Your BigCommerce storefront URL"
+    required: true
+    default: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.token }}
+    - ${{ inputs.store_url }}
