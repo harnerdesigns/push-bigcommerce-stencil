@@ -2,7 +2,8 @@
 FROM node:10-alpine
 
 COPY package*.json ./
-RUN npm ci
+COPY yarn.lock ./yarn.lock
+RUN yarn --frozen-lockfile
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
