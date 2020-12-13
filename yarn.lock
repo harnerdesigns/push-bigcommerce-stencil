@@ -45,8 +45,9 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@bigcommerce/handlebars-v4@github:bigcommerce/handlebars-v4#v4.0.14":
+"@bigcommerce/handlebars-v4@bigcommerce/handlebars-v4#v4.0.14":
   version "4.0.14"
+  uid "89c779943955795b4f6d40cdb71a6aeb4b5d312c"
   resolved "https://codeload.github.com/bigcommerce/handlebars-v4/tar.gz/89c779943955795b4f6d40cdb71a6aeb4b5d312c"
   dependencies:
     handlebars "4.0.14"
@@ -3287,9 +3288,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.2.0, ini@^1.3.4:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inquirer@^0.8.2:
   version "0.8.5"
